@@ -3,7 +3,7 @@ const app = express();
 const port = process.env.PORT || 3000; // Используйте переменную окружения для порта
 
 app.get('/', (req, res) => {
-  res.send('Hello from my custom Node.js app for {{CLIENT_NAME}}!');
+  res.send('Hello DevBox!');
 });
 
 app.listen(port, () => {
