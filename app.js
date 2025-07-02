@@ -3,7 +3,7 @@ const app = express();
 const port = process.env.PORT || 3000; // Используйте переменную окружения для порта
 
 app.get('/', (req, res) => {
-  res.send('Hello Sam!');
+  res.send('Hello World!');
 });
 
 app.listen(port, () => {
